@@ -7,11 +7,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-public class _Ficha {
+public class Ficha {
 
-	@XmlElement(name="nome-aventura")
-	private String nomeCampanha;
-	
 	@XmlElement
 	private Jogador jogador;
 	
@@ -21,13 +18,5 @@ public class _Ficha {
 
 	public void setJogador(Jogador jogador) {
 		this.jogador = jogador;
-	}
-
-	public String getCampanha() {
-		return nomeCampanha;
-	}
-
-	public void setCampanha(String nomeCampanha) {
-		this.nomeCampanha = nomeCampanha;
 	}
 }
