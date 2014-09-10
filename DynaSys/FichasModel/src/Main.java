@@ -13,7 +13,7 @@ import br.com.rpg.sistema.Atributo;
 import br.com.rpg.sistema.Pericia;
 import br.com.rpg.sistema.Sistema;
 
-
+// comment test
 public class Main {
 
 	public static void main(String[] args) throws Exception {
